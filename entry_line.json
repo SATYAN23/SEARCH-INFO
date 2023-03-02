@@ -1,0 +1,23 @@
+{
+     "text_entry_line":
+     {
+         "colours":
+         {
+             "dark_bg": "#A0A0A0",
+             "selected_bg": "#707070",
+             "normal_text": "#000000",
+             "selected_text": "#FFFFFF",
+             "normal_border": "#202020",
+             "text_cursor": "#404040"
+         },
+
+         "misc":
+         {
+             "shape": "rounded_rectangle",
+             "shape_corner_radius": "13",
+             "border_width": "1",
+             "shadow_width": "1",
+             "padding": "8, 0"
+         }
+     }
+ }
