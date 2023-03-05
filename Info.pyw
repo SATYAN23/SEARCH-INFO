@@ -83,8 +83,11 @@ class main():
                     event.ui_object_id == '#main_text_entry3'):
                     text1 = str(event.text)
 
-                    n = li.index(text1)
-                    number = str(li1[n])
+                    if text1 in li:
+                        n = li.index(text1)
+                        number = str(text1) + " : " + str(li1[n])
+                    else:
+                        number =  str("NAME NOT FOUND")
 
                 manager.process_events(event)
         
