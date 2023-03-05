@@ -21,7 +21,7 @@ pygame.display.set_icon(icon)
 WIDTH, HEIGHT = 500, 500
 SCREEN = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption("INFO")
-font = pygame.font.SysFont("Segoe UI ", 16)
+font = pygame.font.SysFont("Segoe UI ", 25)
 
 theme = os.getcwd() + ".\entry_line.json"
 manager = pygame_gui.UIManager((500, 500), theme)
