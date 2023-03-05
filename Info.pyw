@@ -85,7 +85,7 @@ class main():
 
                     if text1 in li:
                         n = li.index(text1)
-                        number = str(text1) + " : " + str(li1[n])
+                        number = str(li1[n])
                     else:
                         number =  str("NAME NOT FOUND")
 
